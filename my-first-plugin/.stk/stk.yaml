@@ -18,6 +18,26 @@ spec:
       inputs: {}
       inputs-envs: {}
       connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.8
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.8
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.8
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.8
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
   global-inputs:
-    project_name: NataneFabene
+    project_name: Tico
   global-computed-inputs: {}
