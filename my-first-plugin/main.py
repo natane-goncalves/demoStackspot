@@ -1,6 +1,9 @@
 import os
 
-from pathlib import Path
+from templateframework.metadata import Metadata
 
-dir = './testeStackspot'       
-os.makedirs(dir)
+def run(metadata: Metadata = None):
+    print("Hello from script.py!")
+    dir = './testeStackspot'       
+    os.makedirs(dir)
+    return metadata
