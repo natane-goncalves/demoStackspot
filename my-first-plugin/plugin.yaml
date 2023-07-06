@@ -4,7 +4,7 @@ metadata:
   name: my-first-plugin
   display-name: my-first-plugin
   description: Demo Teste Plugin
-  version: 0.0.4
+  version: 0.0.8
   picture: plugin.png
 spec:
   type: app
@@ -16,11 +16,13 @@ spec:
   requirements: docs/requirements.md
   technologies: # Ref: https://docs.stackspot.com/content-creator/studio/yaml-files/plugin-yaml/#technologies
     - Api
+  repository: https://github.com/natane-goncalves/demoStackspot/my-first-plugin
   inputs:
     - label: Project name
       name: project_name
       type: text
       global: true
-  python:
-    workdir: .
-    script: main.py
+  hooks:
+    - type: run
+      trigger: after-render
+      path: main.py
