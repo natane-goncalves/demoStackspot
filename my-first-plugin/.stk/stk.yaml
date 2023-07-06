@@ -1,0 +1,23 @@
+schema-version: v1
+kind: manifest
+spec:
+  type: app
+  plugins:
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.3
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.3
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.4
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+  global-inputs:
+    project_name: NataneFabene
+  global-computed-inputs: {}
