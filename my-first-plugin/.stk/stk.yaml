@@ -38,6 +38,51 @@ spec:
       inputs: {}
       inputs-envs: {}
       connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.9
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.11
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.11
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.12
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.11
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.13
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.14
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.16
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
+    - name: natane-fabene/jenkins-clone/my-first-plugin@0.0.17
+      type: app
+      inputs: {}
+      inputs-envs: {}
+      connectors: []
   global-inputs:
-    project_name: Tico
+    project_name: Alice11
   global-computed-inputs: {}
