@@ -4,7 +4,7 @@ metadata:
   name: my-first-plugin
   display-name: my-first-plugin
   description: Demo Teste Plugin
-  version: 0.0.11
+  version: 0.0.16
   picture: plugin.png
 spec:
   type: app
@@ -24,5 +24,5 @@ spec:
       global: true
   hooks:
     - type: run-script
-      trigger: before-render
+      trigger: after-render
       script: main.py
